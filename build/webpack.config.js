@@ -157,8 +157,8 @@ module.exports = env => {
         inject: true
       }),
 
-      ...utils.pages(env),
-      ...utils.pages(env, 'blog'),
+      // ...utils.pages(env),
+      // ...utils.pages(env, 'blog'),
 
       new webpack.ProvidePlugin({
         $: 'jquery',

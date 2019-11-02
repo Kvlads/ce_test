@@ -16,10 +16,22 @@
 /*
   Components
 */
-@import './components/footer';
-@import './components/button';
-@import './components/link';
+//@import './components/footer';
+//@import './components/button';
+//@import './components/link';
 
+//@import './components/';
+
+/*
+  Components/home
+*/
+@import './components/home/header';
+@import './components/home/about';
+@import './components/home/clients';
+@import './components/home/portfolio';
+@import './components/home/blog';
+@import './components/home/lets-work';
+@import './components/footer';
 /*
   Layout
 */
@@ -30,5 +42,3 @@
   Pages
 */
 @import './pages/index';
-@import './pages/blog';
-@import './pages/contact';

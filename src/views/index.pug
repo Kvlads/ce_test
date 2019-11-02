@@ -1,18 +1,27 @@
 extends ./layouts/master.pug
 
 block title
-  title My Page - Home
+  title Home
 
 block manifestBrowserconfigFiles
   link(href='../manifest.json', rel='manifest')
   meta(name='msapplication-config' content='../browserconfig.xml')
-
 block content
 
   //- Desktop page
-  section.page.home__page
-    h1.page__title # Index page
-    p Thank you for your supporting :)
-    p
-      a(href="https://www.buymeacoffee.com/edgardo" target="_blank")
-        img(src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;")
+  //section.page.home__page
+  //  h1.page__title # Index page
+  //  p Thank you for your supporting :)
+  //  p
+  //    a(href="https://www.buymeacoffee.com/edgardo" target="_blank")
+  //      img(src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;")
+
+  include components/home/header
+  include components/home/about
+  include components/home/clients
+  include components/home/portfolio
+  include components/home/blog
+  include components/home/lets-work
+  include components/footer
+
+
