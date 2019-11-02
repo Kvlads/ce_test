@@ -1,2 +1,35 @@
 //- src/views/components/home/header.pug
 
+
+.header
+  .header__inner
+    .header__menu
+      .header-menu__logo
+      .header-menu__list
+        a(href='#').header-menu__item.active
+          | Home
+        a(href='#').header-menu__item
+          | About
+        a(href='#').header-menu__item
+          | Clients
+        a(href='#').header-menu__item
+          | Portfolio
+        a(href='#').header-menu__item
+          | Blog
+
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="124px" height="124px">  <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"        d="M60.000,-0.000 L61.000,-0.000 L61.000,124.000 L60.000,124.000 L60.000,-0.000 Z"/>  <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"        d="M124.000,62.000 L124.000,62.999 L-0.000,62.999 L-0.000,62.000 L124.000,62.000 Z"/></svg>
+
+    .header__title
+      | Hello, I'm
+      br
+      | Dakota Jhonson
+    .header__text
+      | I’m an Art Director & Photographer based in the San Francisco.
+
+    a(href='#').header__btn
+      | See My Works
+
+    .header__socials
+
+    a(href='#').header__scroll-btn
+
