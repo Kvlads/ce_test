@@ -1,0 +1,39 @@
+.clients {
+  width: 100%;
+  //min-height: 300px;
+  background:
+    url('../images/clients/clients-bg.png') no-repeat,
+    $maincolor;
+  background-size: cover;
+
+  .clients__inner {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+
+    .clients__title {
+      font-family: $trirongLite;
+      font-weight: 300;
+      font-size: 40px;
+      margin: 70px 0 35px 0;
+      text-align: center;
+      width: 100%;
+    }
+    .clients__items {
+      display: flex;
+      justify-content: space-between;
+      //vertical-align: middle;
+
+
+      .clients__item {
+        height: 80px;
+        margin-bottom: 80px;
+        vertical-align: middle;
+
+        img {
+
+        }
+      }
+    }
+  }
+}

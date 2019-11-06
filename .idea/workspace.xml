@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9763331d-2cae-4815-a91b-35f0a29067c4" name="Default Changelist" comment="" />
+    <list default="true" id="9763331d-2cae-4815-a91b-35f0a29067c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/images/about/about__fashion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/about/about__img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/about/mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/clients/clients-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/clients/logo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/clients/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/clients/logo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/clients/logo4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/clients/logo5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/clients/logo6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/favicons/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/favicons/facebook.png.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/favicons/facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/favicons/inst.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/favicons/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/favicons/wtf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/header/mask-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/header/mask-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/header/right-corner.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/base/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/base/_fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/components/home/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/components/home/about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/components/home/clients.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/components/home/clients.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/components/home/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/components/home/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/layout/_general.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/layout/_general.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/utils/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/utils/_colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/components/home/about.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/components/home/about.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/components/home/clients.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/components/home/clients.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/components/home/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/components/home/header.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index.pug" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +79,8 @@
       <option name="presentableId" value="Default" />
       <updated>1572729504082</updated>
       <workItem from="1572729506381" duration="65000" />
-      <workItem from="1572729618404" duration="8279000" />
+      <workItem from="1572729618404" duration="9608000" />
+      <workItem from="1572991484959" duration="11903000" />
     </task>
     <servers />
   </component>

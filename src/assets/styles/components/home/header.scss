@@ -1,8 +1,12 @@
 .header{
-  background: $maincolor;
+  background:
+    url('../images/header/mask-left.png') 0 calc(100vh - 160px),
+    url('../images/header/mask-right.png') 100% calc(100vh - 160px),
+    $maincolor;
+  background-repeat: no-repeat;
   height: 100vh;
   width: 100vw;
-  font-family: 'Muli', serif;
+  font-family: $mainfont;
 
   .header__inner {
     max-width: 1170px;
@@ -43,7 +47,7 @@
     }
 
     .header__title {
-      font-family: 'Trirong', serif;
+      font-family: $trirongLite;
       font-weight: 300;
       font-size: 60px;
       padding: 95px 0 20px 0;
@@ -69,6 +73,26 @@
       position: absolute;
       top: calc(100vh - 85px);
       left: calc(50% - 15px);
+    }
+
+    .header__socials {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      //right: 100px;
+      //bottom: 35px;
+      background: url('../images/header/right-corner.svg') 0 0;
+      width: 380px;
+      height: 177px;
+
+      .header__socials-items {
+        width: 150px;
+        position: absolute;
+        right: 100px;
+        bottom: 25px;
+        display: flex;
+        justify-content: space-between;
+      }
     }
   }
 
