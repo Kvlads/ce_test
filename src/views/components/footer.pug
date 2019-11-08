@@ -1,2 +1,69 @@
 //- src/views/components/footer.pug
+script(src="https://yastatic.net/es5-shims/0.0.2/es5-shims.min.js")
+script(src="https://yastatic.net/share2/share.js")
+
+.footer
+  .footer__inner
+    .footer__contact
+      .footer__contact-logo
+      .footer__contact-title
+        | Contact
+      .footer__contact-text
+        | 237 Church St, San Francisco,
+        br
+        | CA 94114, USA
+        br
+        | nazmulhasanjingar@gmail.com
+      .footer__contact-title
+        | Follow me on:
+      .footer__contact-socials
+        a(href="#").footer__socials-link
+          img(src="/assets/images/favicons/facebook.png")
+        a(href="#").footer__socials-link
+          img(src="/assets/images/favicons/twitter.png")
+        a(href="#").footer__socials-link
+          img(src="/assets/images/favicons/inst.png")
+        a(href="#").footer__socials-link
+          img(src="/assets/images/favicons/wtf.png")
+
+    .footer__latest
+      .footer__title
+        | Latest Blog Posts
+      .footer__latest-item
+        .footer__latest-img(style="background: url('../assets/images/footer/footer-latest.png')")
+        .footer__latest-item-title
+          | Design is the method of putting form and content together .
+        .footer__latest-item-date
+          <b> Life style </b>- July 3, 2017
+
+      .footer__latest-item
+        .footer__latest-img(style="background: url('../assets/images/footer/footer-latest.png')")
+        .footer__latest-item-title
+          | Design is the method of putting form and content together .
+        .footer__latest-item-date
+          <b> Life style </b>- July 3, 2017
+        br
+      a(href="#").footer__latest-more
+        | More...
+
+    .footer__quick
+      .footer__title
+        | Quick Link
+      .footer__quick-items
+        a(href="#").footer__quick-link
+          | Home
+        a(href="#").footer__quick-link
+          | About
+        a(href="#").footer__quick-link
+          | Clients
+        a(href="#").footer__quick-link
+          | Portfolio
+        a(href="#").footer__quick-link
+          | Bog
+
+
+    .footer__inst
+      .footer__title
+        | Instagram Update
+
 

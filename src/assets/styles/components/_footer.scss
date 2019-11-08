@@ -1,24 +1,110 @@
 /* src/assets/styles/components/_footer.scss  */
 
 .footer {
-  background: $lightseagreen;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  width: 250px;
-  padding: 10px;
-  border-top-left-radius: 5px;
-  p {
-    font-size: 12px;
-  }
-  a {
-    font-size: 15px;
+  background: $maincolor;
+  font-family: $mainfont;
+  width: 100%;
+  border-top: 1px solid rgb(85, 87, 125);
+  padding-top: 85px;
+  padding-bottom: 35px;
+
+  .footer__inner {
+    max-width: 1600px;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 0.9fr 1.3fr 0.9fr 0.9fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "footer__contact footer__latest footer__quick footer__inst";
+
+    .footer__contact {
+      grid-area: footer__contact;
+
+      &-logo {
+        width: 196px;
+        height: 26px;
+        background: url('/assets/images/header/Logo.png') no-repeat;
+        padding-bottom: 40px;
+      }
+
+      &-title {
+        font-size: 20px;
+        font-weight: 600;
+        padding-bottom: 20px;
+      }
+
+      &-text {
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 40px;
+      }
+
+      &-socials {
+        max-width: 110px;
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+
+    .footer__latest {
+      grid-area: footer__latest;
+
+      .footer__latest-item {
+        clear: both;
+        }
+      .footer__latest-item:last-child {
+        margin-bottom: 30px;
+      }
+
+        &-img {
+        width: 70px;
+        height: 60px;
+        float: left;
+        margin: 0 30px 30px 0;
+
+      }
+      &-item-title {
+        font-size: 16px;
+        padding-bottom: 13px;
+      }
+
+      &-more {
+        color: #fff;
+        text-transform: uppercase;
+        padding-top: 30px;
+        font-size: 16px;
+        font-weight: 600;
+      }
+    }
+
+    .footer__quick {
+      grid-area: footer__quick;
+
+    &-items {
+      display: flex;
+      flex-direction: column;
+      line-height: 27px;
+
+      a {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 600;
+      }
+    }
+    }
+
+    .footer__inst {
+      grid-area: footer__inst;
+    }
+
+    .footer__title {
+      font-size: 24px;
+      font-weight: 300;
+      padding-bottom: 25px;
+    }
   }
 }
 
-/*
-  Responsive
-*/
 
 @media screen and(max-width: $grid-width) {
 

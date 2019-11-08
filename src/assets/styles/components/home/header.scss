@@ -1,12 +1,14 @@
 .header{
   background:
-    url('../images/header/mask-left.png') 0 calc(100vh - 160px),
-    url('../images/header/mask-right.png') 100% calc(100vh - 160px),
+    url('/assets/images/header/mask-left.png') 0 calc(100vh - 160px),
+    url('/assets/images/header/mask-right.png') 100% calc(100vh - 160px),
+    url('/assets/images/header/bg.png') 100% 0,
     $maincolor;
   background-repeat: no-repeat;
   height: 100vh;
   width: 100vw;
   font-family: $mainfont;
+  background-blend-mode: exclusion;
 
   .header__inner {
     max-width: 1170px;
@@ -25,7 +27,7 @@
       .header-menu__logo {
         width: 196px;
         height: 26px;
-        background: url('../images/header/Logo.png') no-repeat;
+        background: url('/assets/images/header/Logo.png') no-repeat;
       }
 
       .header-menu__list {
