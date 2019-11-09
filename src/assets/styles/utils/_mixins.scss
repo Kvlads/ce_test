@@ -1,16 +1,175 @@
-/* src/assets/styles/utils/_mixins.scss  */
+// http://ru.screenresolution.org/
 
-@mixin isFlex($align: center, $justify: center, $direction: row, $wrap: wrap) {
-  display: flex;
-  align-items: $align;
-  justify-content: $justify;
-  flex-direction: $direction;
-  flex-wrap: $wrap;
+@mixin breakpoint-1918 {
+  @media screen and (max-width: 1918px) {
+    @content;
+  }
 }
 
-@mixin bgImage($url, $repeat: no-repeat, $position: center, $size: initial) {
-  background-image: url($url);
-  background-repeat: $repeat;
-  background-position: $position;
-  background-size: $size;
+@mixin breakpoint-1840 { // 1840x1150
+  @media screen and (max-width: 1840px) {
+    @content;
+  }
+}
+
+@mixin breakpoint-1680 { // 1680x1050
+  @media screen and (max-width: 1680px) {
+    @content;
+  }
+}
+
+@mixin breakpoint-1600 { // 1600x900
+  @media screen and (max-width: 1600px) {
+    @content;
+  }
+}
+
+@mixin breakpoint-1536 { // 1536x864
+  @media screen and (max-width: 1536px) {
+    @content;
+  }
+}
+
+@mixin breakpoint-1440 { // 1440x900
+  @media screen and (max-width: 1440px) {
+    @content;
+  }
+}
+
+@mixin breakpoint-1366 { // 1366x768
+  @media screen and (max-width: 1366px) {
+    @content;
+  }
+}
+
+@mixin breakpoint-1365 {
+  @media screen and (max-width: 1365px) {
+    @content;
+  }
+}
+
+@mixin breakpoint-1280 { // 1280x800
+  @media screen and (max-width: 1280px) {
+    @content;
+  }
+}
+
+@mixin breakpoint-1200 {
+  @media screen and (max-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin breakpoint-1152 { // 1152x720
+  @media screen and (max-width: 1152px) {
+    @content;
+  }
+}
+
+@mixin breakpoint-1093 { // 1093x615
+  @media screen and (max-width: 1093px) {
+    @content;
+  }
+}
+
+@mixin breakpoint-1024 { // 1024x768
+  @media screen and (max-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin breakpoint-1023 {
+  @media screen and (max-width: 1023px) {
+    @content;
+  }
+}
+
+@mixin breakpoint-960 { // 960x600
+  @media screen and (max-width: 960px) {
+    @content;
+  }
+}
+
+@mixin breakpoint-959 {
+  @media screen and (max-width: 959px) {
+    @content;
+  }
+}
+
+@mixin breakpoint-812 { // iPhone X 812 x 375
+  @media screen and (max-width: 812px) {
+    @content;
+  }
+}
+
+@mixin breakpoint-768 {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin breakpoint-767 {
+  @media screen and (max-width: 767px) {
+    @content;
+  }
+}
+
+@mixin breakpoint-736 {
+  @media screen and (max-width: 736px) {
+    @content;
+  }
+}
+
+@mixin breakpoint-667 { // iPhone 7 667 x 375
+  @media screen and (max-width: 667px) {
+    @content;
+  }
+}
+
+@mixin breakpoint-600 { // 600x800
+  @media screen and (max-width: 600px) {
+    @content;
+  }
+}
+
+@mixin breakpoint-568 {  // iPhone 5 658 x 320
+  @media screen and (max-width: 568px) {
+    @content;
+  }
+}
+
+@mixin breakpoint-480 {
+  @media screen and (max-width: 480px) {
+    @content;
+  }
+}
+
+@mixin breakpoint-477 {
+  @media screen and (max-width: 477px) {
+    @content;
+  }
+}
+
+@mixin breakpoint-428 {
+  @media screen and (max-width: 428px) {
+    @content;
+  }
+}
+
+@mixin breakpoint-375 {
+  @media screen and (max-width: 375px) {
+    @content;
+  }
+}
+
+@mixin breakpoint-374 {
+  @media screen and (max-width: 374px) {
+    @content;
+  }
+}
+
+@mixin breakpoint-320 {
+  @media screen and (max-width: 320px) {
+    @content;
+  }
 }
